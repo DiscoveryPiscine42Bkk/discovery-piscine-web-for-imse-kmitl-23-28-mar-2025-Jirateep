@@ -21,8 +21,8 @@ h1, h2 {
 
 .profile-img {
     width: 100%;
-    max-width: 5000px;
-    border-radius: 10px;
+    max-width: 500px;
+    border-radius: 50%;
     object-fit: cover;
     padding: 10px;
     background-color: white;
