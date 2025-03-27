@@ -1,10 +1,23 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #00A9FF;
     color: white;
     margin: 0;
     padding: 20px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(270deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+    background-size: 400% 400%;
+    animation: gradientFlow 18s infinite linear;
+}
+
+@keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .container {
@@ -35,13 +48,13 @@ h1, h2 {
     margin: 10px;
     padding: 10px 20px;
     background: white;
-    color: #00A9FF;
+    color: #524F81;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
 }
 
 .button:hover {
-    background: #005F99;
+    background: #392A48;
     color: white;
 }
